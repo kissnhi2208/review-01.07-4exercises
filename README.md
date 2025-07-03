@@ -63,4 +63,4 @@
 - Ít nhất 10 dòng dữ liệu
 - Header bảng có background khác màu
 - Sử dụng colspan/rowspan cho một số ô
-- Responsive table# review-01.07-4exercises
+- Responsive table

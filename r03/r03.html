@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 3 - Form đăng ký tài khoản</title>
+    <link rel="icon" href="./logo.png" />
+</head>
+
+<body>
+    <header>
+        <h1 style="text-align: center; color: blue">Form Đăng Ký Tài Khoản</h1>
+    </header>
+
+    <form style="max-width: 400px; margin: auto; font-family: 'Times New Roman', Times, serif; background: #f8f6f6; padding: 25px; border-radius: 10px; border: 1px solid rgb(19, 19, 19)">
+        <label for="fullname">Họ tên</label>
+        <input type="text" name="fullname" id="fullname" required style="width: 100%; margin-bottom: 15px" />
+            
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required style="width: 100%; margin-bottom: 15px" />
+
+        <label for="password">Mật khẩu</label>
+        <input type="password" name="password" id="password" minlength="8" required style="width: 100%; margin-bottom: 15px" />
+
+        <label for="confirm_password">Xác nhận lại mật khẩu</label>
+        <input type="password" name="confirm_password" id="confirm_password" minlength="8" required style="width: 100%; margin-bottom: 15px" />
+
+        <label for="birthday">Ngày sinh</label>
+        <input type="date" name="birthday" id="birthday" style="width: 100%; margin-bottom: 15px" />
+
+        <label>Giới tính</label>
+        <br>
+        <input type="radio" name="gender" id="male" value="male" />
+        <label for="male">Nam</label>
+        <input type="radio" name="gender" id="female" value="female" />
+        <label for="female">Nữ</label>
+        <input type="radio" name="gender" id="other" value="other" />
+        <label for="other">Khác</label>
+        <br><br>
+
+        <label>Sở thích</label>
+        <br>
+        <input type="checkbox" name="hobby1" id="hobby1" value="music" />
+        <label for="hobby1">Nghe nhạc</label>
+        <input type="checkbox" name="hobby2" id="hobby2" value="travel" />
+        <label for="hobby2">Du lịch</label>
+        <input type="checkbox" name="hobby3" id="hobby3" value="reading" />
+        <label for="hobby3">Đọc sách</label>
+        <input type="checkbox" name="hobby4" id="hobby4" value="sports" />
+        <label for="hobby4">Thể thao</label>
+        <br>
+        <input type="checkbox" name="hobby5" id="hobby5" value="gaming" />
+        <label for="hobby5">Chơi game</label>
+        <input type="checkbox" name="hobby6" id="hobby6" value="movie" />
+        <label for="hobby6">Xem phim</label>
+        <input type="checkbox" name="hobby7" id="hobby7" value="cooking" />
+        <label for="hobby7">Nấu ăn</label>
+        <input type="checkbox" name="hobby8" id="hobby8" value="billiard" />
+        <label for="hobby7">Chơi bida</label>
+        <br><br>
+
+        <label for="country">Quốc gia</label>
+        <select name="country" id="country" style="width: 100%; margin-bottom: 15px">
+            <option value="">-- Chọn quốc gia --</option>
+            <option value="vietnam">Việt Nam</option>
+            <option value="us">Hoa Kỳ</option>
+            <option value="japan">Nhật Bản</option>
+            <option value="korea">Hàn Quốc</option>
+            <option value="uk">Anh</option>
+            <option value="france">Pháp</option>
+            <option value="germany">Đức</option>
+            <option value="china">Trung Quốc</option>
+            <option value="india">Ấn Độ</option>
+            <option value="other">Khác</option>
+        </select>
+
+        <input type="checkbox" name="terms" id="terms" required />
+        <label for="terms">Tôi đồng ý với <a href="#" style="color: #1e47cf">điều khoản sử dụng</a>.</label>
+        <br><br>
+
+        <button type="submit" style="width: 100%; background: #1e47cf; color: white; padding: 10px; border: none; border-radius: 5px">Đăng ký</button>
+    </form>
+</body>
+
+</html>
