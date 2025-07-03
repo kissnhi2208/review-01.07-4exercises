@@ -1,4 +1,4 @@
-# 4 Bài tập thực hành Code để ôn lại kiến thức cơ bản về HTML và HTML Form
+# 4 Bài tập thực hành Code để Ôn lại kiến thức cơ bản về HTML và HTML Form
 
 ### Bài 1: Tạo trang cá nhân cơ bản
 
